@@ -1,53 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт про котиків "CattyHub"</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('https://animals.pibig.info/uploads/posts/2023-04/1680535869_animals-pibig-info-p-oboi-kotyata-zhivotnie-pinterest-1.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      table {
+        margin: 50px auto;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+      table td {
+        padding: 10px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: navy;
+      }
+      a:hover {
+        color: blue;
+      }
+      p {
+        margin-top: 10px;
+      }
+      footer {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px 0;
+      }
+    </style>
   </head>
-  <body style="background-image: url('https://animals.pibig.info/uploads/posts/2023-04/1680535869_animals-pibig-info-p-oboi-kotyata-zhivotnie-pinterest-1.jpg');">
+  <body>
     <!-- =======================  Каркас сайта ========================= -->
-    <table border="1" align="center" cellpadding="10">
+    <table border="1" cellpadding="10">
       <tr>
-        <td colspan="2" height="150" align="right" hspace="5"> 
-          <font size="5"><hl>Сайт про котиків "CattyHub"</hl></font> 
+        <td colspan="2" height="150" align="right"> 
+          <h1>Сайт про котиків "CattyHub"</h1>
         </td>
       </tr>
       <tr>
         <td colspan="2">
-          <font size="4"><b>
-            <a href="#">Головна</a>&nbsp;&nbsp;
-            <a href="#">Фотогалерея</a>&nbsp;&nbsp;
-            <a href="#">Відео</a>&nbsp;&nbsp;
-            <a href="#">Про нас</a>&nbsp;&nbsp;
-            <a href="#">Контакти</a>&nbsp;&nbsp;
-          </b></font>
+          <nav>
+            <a href="#">Головна</a> |
+            <a href="#">Фотогалерея</a> |
+            <a href="#">Відео</a> |
+            <a href="#">Про нас</a> |
+            <a href="#">Контакти</a>
+          </nav>
         </td>
       </tr>
       <tr>
         <td width="30%" valign="top">
-          <font size="5" color="navy"><h2>Наші котики</h2></font>
-          <font size="5" >
-            <ul>
-              <li><a href="https://youtu.be/eQT-tX350WQ?si=Ji5_SvoocdpP44fX">Котик Мурчик</a></li>
-              <li><a href="https://youtu.be/eF4_CbhnRfQ?si=i2W1-GZHLyHXwHfN">Кішка Василиська</a></li>
-              <li><a href="https://youtu.be/s6mIslQA1qE?si=N61ciwo9kYngeUy7">Котик Барсик</a></li>
-              <li><a href="https://youtu.be/WS-MBAMkXmg?si=dCHEKSHYPiposnqL">ПісНя про Котика Сігма</a></li>
-              <li><a href="https://youtu.be/aWUB9qmiK5o?si=1lbI1x1Kiz_Z_Ynp">Котик Лео</a></li><br>
-              <p align="right"><a href="https://youtu.be/MOEtQSswu3s?si=S-3Bn2n4_8MQ6WQ1">інші...</a></p>
-            </ul>
-          </font>
+          <h2>Наші котики</h2>
+          <ul>
+            <li><a href="https://youtu.be/eQT-tX350WQ?si=Ji5_SvoocdpP44fX">Котик Мурчик</a></li>
+            <li><a href="https://youtu.be/eF4_CbhnRfQ?si=i2W1-GZHLyHXwHfN">Кішка Василиська</a></li>
+            <li><a href="https://youtu.be/s6mIslQA1qE?si=N61ciwo9kYngeUy7">Котик Барсик</a></li>
+            <li><a href="https://youtu.be/WS-MBAMkXmg?si=dCHEKSHYPiposnqL">ПісНя про Котика Сігма</a></li>
+            <li><a href="https://youtu.be/aWUB9qmiK5o?si=1lbI1x1Kiz_Z_Ynp">Котик Лео</a></li>
+          </ul>
+          <p><a href="https://youtu.be/MOEtQSswu3s?si=S-3Bn2n4_8MQ6WQ1">Дивитися більше котиків...</a></p>
         </td>
-        <td width="70%"><p>Ласкаво просимо на сайт "CattyHub" - ваш вихід у світ котиків!</p>
+        <td width="70%">
+          <p>Ласкаво просимо на сайт "CattyHub" - ваш вихід у світ котиків!</p>
           <p>Тут ви знайдете найсолодші фото та відео наших пухнастих друзів.</p>
           <p>Розкажіть про наш сайт своїм друзям і отримайте ще більше приємних вражень від перегляду котиків!</p>
         </td>
       </tr>
       <tr>
-        <td background="https://animals.pibig.info/uploads/posts/2023-04/1680535869_animals-pibig-info-p-oboi-kotyata-zhivotnie-pinterest-1.jpg" colspan="2" valign="middle" height="90">
-          <font size="4">Сайт створив Гена Цидармян</font>
+        <td colspan="2" valign="middle" height="90">
+          <footer>Сайт створив Гена Цидармян</footer>
         </td>
       </tr>
     </table>
     <!-- ============================================================= -->
   </body>
-</html>  
+</html>
